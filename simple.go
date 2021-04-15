@@ -13,6 +13,6 @@ func Preprocess() []string {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("tokens: %q\n", en.Tokns)
+	fmt.Printf("tokens: %q\n", en.Tokens)
 	return en.Tokens
 }
